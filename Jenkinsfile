@@ -9,7 +9,7 @@ pipeline{
             git url: "https://github.com/Mariselvam5/sparkjava-war-example.git", branch: "master"
             }
         }
-        stage('Build'){
+        stage('My Build'){
             steps{
                 sh 'mvn clean install'
             }
